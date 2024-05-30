@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.first_background {
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.359) 40%,
+      rgba(0, 0, 0, 1) 60%
+    ),
+    url(zurag2.jpeg);
+  background-position-y: 78%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .first_background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, white 0 30%, black 30% 70%);
+  opacity: 0.35;
+} */
+.total_container {
+  position: absolute;
+  top: 0px;
+  width: 80%;
+}
+.navbar_box1_logo {
+  height: 19px;
+  width: 135px;
+}
+.navbar_box1_logo img {
+  height: 100%;
+  object-fit: contain;
+}
+.navbar_box1_container span {
+  color: rgb(178, 180, 180);
+}
+.haih_talbar input {
+  border: 0;
+  background: 0;
+}
+.navbar_box1_container1 {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar_box1 {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
