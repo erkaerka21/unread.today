@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
+  font-family: sans-serif;
 }
 body {
   display: flex;
@@ -15,7 +16,7 @@ body {
       rgba(0, 0, 0, 0.359) 40%,
       rgba(0, 0, 0, 1) 60%
     ),
-    url(zurag2.jpeg);
+    url(unread.today.zurag1.jpeg);
   background-position-y: 78%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +30,7 @@ body {
 } */
 .total_container {
   position: absolute;
-  top: 0px;
+  top: 30px;
   width: 80%;
 }
 .navbar_box1_logo {
@@ -52,10 +53,120 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .navbar_box1 {
-  width: 450px;
+  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+.material-symbols-outlined {
+  color: gray;
+  padding-left: 20px;
+}
+.navbar_box2_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_box2 p {
+  font-size: 1.26rem;
+  color: white;
+  letter-spacing: 0.015rem;
+}
+.p_with_capslock {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+.p_with_border {
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-style: none;
+  font-size: 1.26rem;
+  letter-spacing: 0.015rem;
+}
+.navbar_box2_icons section {
+  margin-left: 15px;
+}
+.navbar_box2_icons section a i {
+  color: white;
+  cursor: pointer;
+  opacity: 0.3;
+  height: 100%;
+  object-fit: contain;
+  font-size: 20px;
+}
+.fa-square-facebook:hover {
+  color: rgb(55, 140, 243);
+  opacity: 1;
+}
+.fa-square-instagram:hover {
+  color: rgb(242, 102, 203);
+  opacity: 1;
+}
+.fa-square-twitter:hover {
+  color: aquamarine;
+  opacity: 1;
+}
+.fa-linkedin:hover {
+  color: beige;
+  opacity: 1;
+}
+.navbar_box2_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar_box2 {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.total_container navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.haih_talbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px white solid;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+}
+.dot_blue {
+  width: 8px;
+  height: 8px;
+  background-color: #0078f6;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
+.hero aside {
+  width: 450px;
+  height: 450px;
+  border-radius: 15px;
+}
+.hero > aside img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
