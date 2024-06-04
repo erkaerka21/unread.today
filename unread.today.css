@@ -179,13 +179,19 @@ body {
   width: 450px;
   height: 450px;
   border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.hero > aside img:hover {
+  transform: scale(1.1);
 }
 .hero > aside img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
+  transition: all;
 }
+
 @keyframes blinker1 {
   0% {
     opacity: 0;
@@ -301,5 +307,12 @@ body {
   display: flex;
   flex-direction: row;
 }
-.layout-com-text h1 {
+.layout-con-text > h1 {
+  color: black;
+  font-size: 1.26rem;
+}
+.layout-con-text > h2 {
+  color: #fff;
+  font-size: 1.26rem;
+  background-color: ;
 }
