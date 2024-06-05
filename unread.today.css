@@ -451,12 +451,6 @@ body {
 .article-left .authors-info .authors-info-text {
   margin-left: 10px;
 }
-.article-left {
-  margin-left: 16%;
-}
-.article-right {
-  margin-left: 35%;
-}
 .article-right .authors-info {
   display: flex;
   flex-direction: row;
@@ -493,11 +487,23 @@ body {
   position: relative;
 }
 .articles-container {
+  width: 100%;
   margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .article-left .content {
   border-radius: 0rem 2.7rem 2.7rem 2.7rem;
 }
 .article-right .content {
   border-radius: 2.7rem 0rem 2.7rem 2.7rem;
+}
+.con-article {
+  width: 100%;
+}
+.con-article-left {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
 }
